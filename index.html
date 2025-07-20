@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiyanshu Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="https://via.placeholder.com/16x16.png?text=JP">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // IMPORTANT: Replace 'YOUR_PUBLIC_KEY' with your actual EmailJS Public Key from EmailJS Account -> Account
+            emailjs.init({
+                publicKey: "YOUR_PUBLIC_KEY",
+            });
+        })();
+    </script>
+</head>
+<body>
+
+    <div id="css-animated-background"></div>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">JC</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="hero-text-content animate delay-0"> <p class="hero-intro">Hello, I'm</p>
+                <h1 class="hero-title">Jiyanshu Chakraborty</h1>
+                <p class="hero-tagline">I am a <span class="typing-text"></span></p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary animate delay-3">My Work</a>
+                    <a href="#contact" class="btn btn-secondary animate delay-4">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image-container animate delay-1">
+                <img src="images/pr1.jpg" alt="Your Profile Picture" class="hero-profile-pic">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title animate">About Me</h2>
+            <div class="about-content">
+                <div class="about-image animate delay-1">
+                    <img src="images/pr8.png" alt="About Me Image">
+                </div>
+                <div class="about-text animate delay-2">
+                    <p>
+                        Hello! I'm Jiyanshu, a passionate [Your Profession/Interest - e.g., Web Developer, Cybersecurity Enthusiast] with a knack for [mention a key skill, e.g., crafting elegant solutions, analyzing complex systems]. My journey in the tech world began with a curiosity for [e.g., how websites are built, digital forensics], which quickly evolved into a dedicated pursuit of knowledge and practical skills.
+                    </p>
+                    <p>
+                        I specialize in [mention your main areas, e.g., front-end development using React, network security, ethical hacking]. I thrive on solving challenging problems and am constantly exploring new technologies to enhance my expertise. My goal is to [mention a career aspiration, e.g., build innovative web applications, secure digital infrastructures, contribute to open-source projects].
+                    </p>
+                    <p>
+                        Beyond coding and cybersecurity, I am also interested in [mention a hobby or another interest, e.g., artificial intelligence, photography, hiking], which helps me maintain a balanced perspective and fuels my creativity. I believe in continuous learning and adapting to the ever-evolving tech landscape.
+                    </p>
+                    <div class="personal-details">
+                        <p><strong>Name:</strong> Jiyanshu</p>
+                        <p><strong>Email:</strong> jiyanshu.chakraborty25@gmail.com</p>
+                        <p><strong>Location:</strong> Assam, India</p>
+                        <p><strong>Phone:</strong> +91 8812002298</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title animate">My Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category animate delay-1">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li><i class="fas fa-code"></i> Python</li>
+                        <li><i class="fas fa-code"></i> JavaScript (ES6+)</li>
+                        <li><i class="fas fa-code"></i> C/C++</li>
+                        <li><i class="fas fa-code"></i> Java</li>
+                        <li><i class="fas fa-code"></i> HTML5/CSS3</li>
+                    </ul>
+                </div>
+                <div class="skill-category animate delay-2">
+                    <h3>Web Technologies</h3>
+                    <ul>
+                        <li><i class="fas fa-laptop-code"></i> React.js</li>
+                        <li><i class="fas fa-laptop-code"></i> Node.js (Express)</li>
+                        <li><i class="fas fa-laptop-code"></i> RESTful APIs</li>
+                        <li><i class="fas fa-laptop-code"></i> Git/GitHub</li>
+                        <li><i class="fas fa-laptop-code"></i> Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="skill-category animate delay-3">
+                    <h3>Cybersecurity</h3>
+                    <ul>
+                        <li><i class="fas fa-shield-alt"></i> Network Security</li>
+                        <li><i class="fas fa-shield-alt"></i> Ethical Hacking</li>
+                        <li><i class="fas fa-shield-alt"></i> Penetration Testing</li>
+                        <li><i class="fas fa-shield-alt"></i> Digital Forensics</li>
+                        <li><i class="fas fa-shield-alt"></i> SIEM Tools</li>
+                    </ul>
+                </div>
+                <div class="skill-category animate delay-4">
+                    <h3>Tools & Platforms</h3>
+                    <ul>
+                        <li><i class="fas fa-tools"></i> Docker</li>
+                        <li><i class="fas fa-tools"></i> Kubernetes</li>
+                        <li><i class="fas fa-tools"></i> AWS/Azure Basics</li>
+                        <li><i class="fas fa-tools"></i> Linux/CLI</li>
+                        <li><i class="fas fa-tools"></i> VS Code</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title animate">Education</h2>
+            <div class="education-grid">
+                <div class="education-item animate delay-1">
+                    <img src="images/iitg.webp" alt="IIT Guwahati Logo">
+                    <div class="education-info">
+                        <h3>Minor Degree in Cybersecurity</h3>
+                        <p class="institution-years">Indian Institute of Technology Guwahati | 2025 - 2026</p>
+                        <p class="description">Focused on advanced cybersecurity principles and practical applications.</p>
+                    </div>
+                </div>
+                <div class="education-item animate delay-2">
+                    <img src="images/ustm.webp" alt="University of Science and Technology, Meghalaya Logo">
+                    <div class="education-info">
+                        <h3>Bachelor of Computer Applications (BCA)</h3>
+                        <p class="institution-years">University of Science and Technology, Meghalaya | 2023 - 2026</p>
+                        <p class="description">Comprehensive study in computer applications, programming, and software development.</p>
+                    </div>
+                </div>
+                <div class="education-item animate delay-3">
+                    <img src="images/kv.jpg" alt="Kendriya Vidyalaya Logo">
+                    <div class="education-info">
+                        <h3>Higher Secondary Education (12th Grade)</h3>
+                        <p class="institution-years">Kendriya Vidyalaya AFS Digaru | 2022 - 2023</p>
+                        <p class="description">Completed 12th grade with a focus on Science stream.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title animate">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card animate delay-1">
+                    <img src="images/giphy.gif" alt="Honeypot Project">
+                    <div class="project-info">
+                        <h3>Honeypot</h3>
+                        <p>Developed a low-interaction honeypot to detect and analyze cyberattack attempts and gather threat intelligence.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate delay-2">
+                    <img src="images/blog-em310-udl-smart-parking.gif" alt="IoT Based Smart Parking System">
+                    <div class="project-info">
+                        <h3>IoT Based Smart Parking System</h3>
+                        <p>Created an IoT solution for efficient parking management, utilizing sensors and a real-time data display.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate delay-3">
+                    <img src="images/appearing-cartoon.gif" alt="Online Pharmacy Shop">
+                    <div class="project-info">
+                        <h3>Online Pharmacy Shop</h3>
+                        <p>Built an e-commerce platform for purchasing pharmaceuticals online, featuring secure transactions and user authentication.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements-section">
+        <div class="container">
+            <h2 class="section-title animate">Achievements & Certifications</h2>
+            <div class="achievements-content">
+                <div class="achievement-item animate delay-1">
+                    <img src="images/pr2.jpg" alt="Robo War Event">
+                    <div class="event-name-overlay"><p>15kg Robo War 1st Runner-up in IIT Bombay 2024</p></div>
+                </div>
+                <div class="achievement-item animate delay-2">
+                    <img src="images/p3.jpg" alt="Robo War Event">
+                    <div class="event-name-overlay"><p>8kg Robo War 2nd Runner-up in IIT Bombay 2023</p></div>
+                </div>
+                <div class="achievement-item animate delay-3">
+                    <img src="images/pr5.jpg" alt="Aeronautical Relay Event">
+                    <div class="event-name-overlay"><p>Aeronautical Relay 2nd Runner-up in IIT Patna 2023</p></div>
+                </div>
+                <div class="achievement-item animate delay-4">
+                    <img src="images/pr4.jpg" alt="Robo Soccer Event">
+                    <div class="event-name-overlay"><p>Winner in Robo Soccer in ADBU 2024</p></div>
+                </div>
+                <div class="achievement-item animate delay-5">
+                    <img src="images/pr6.jpg" alt="Robo Soccer Event">
+                    <div class="event-name-overlay"><p>Winner in Robo Soccer in ADBU 2023</p></div>
+                </div>
+                <div class="achievement-item animate delay-6">
+                    <img src="images/pr7.jpg" alt="Robo Soccer Event">
+                    <div class="event-name-overlay"><p>Winner in Robo Soccer in RGU 2024</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title animate">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info animate">
+                    <p><i class="fas fa-envelope"></i> jiyanshu.chakraborty25@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91 8812002298</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Assam, India</p>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form animate delay-1" id="contact-form">
+                    <input type="text" name="from_name" placeholder="Your Name" required>
+                    <input type="email" name="from_email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Jiyanshu. All rights reserved.</p>
+            <a href="#hero" class="footer-arrow-up" aria-label="Scroll to top">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
